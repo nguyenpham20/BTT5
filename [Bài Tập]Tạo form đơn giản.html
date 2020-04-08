@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<style>
+    th {
+        width: 100px;
+        height: 45px;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    th {
+        color: blue;
+        size: 10px;
+    }
+</style>
+<body>
+<form>
+    <fieldset style="background-color: deepskyblue;">
+        <h1 style="background-color: orangered;">SỞ THÍCH CỦA BẠN</h1>
+        <table>
+            <tr>
+                <th>Họ và tên</th>
+                <th> <input type="text"/></th>
+            </tr>
+            <tr>
+                <th> Email</th>
+                <th><input type="text"/></th>
+            </tr>
+            <tr>
+                <th> Sở thích</th>
+                <th style="color: red"><input type="checkbox"/>Thể thao<br/>
+                 <input type="checkbox"/>Lướt web<br/>
+                <input type="checkbox"/>Du lịch<br/>
+                <input type="checkbox"/>Âm nhạc<br/>
+                <input type="checkbox"/> Chơi game</th>
+            </tr>
+            <tr>
+                <th><input type="submit" value="Gửi thông tin" style="background-color: darkgray;"></th>
+                <th><input type="reset" value="Nhập lai" style="background-color: darkgray;"/></th>
+            </tr>
+        </table>
+    </fieldset>
+
+
+
+    <fieldset style="background-color: coral;">
+        <fieldset style="background-color: yellow;">
+        <h1 style="background-color:DodgerBlue;">ĐĂNG KÝ HỌC VIÊN</h1>
+        <table>
+            <tr>
+                <th>Họ và tên</th>
+                <th><input type="text"/></th>
+            </tr>
+            <tr>
+                <th>Ngày sinh</th>
+                <th><input type="date"></th>
+            </tr>
+            <tr>
+                <th>Giới tính</th>
+                <th><input type="radio" name="gt" checked/>Nam
+                    <input type="radio" name="gt"/>Nữ
+                </th>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <th><textarea rows="10" cols="30"></textarea></th>
+            </tr>
+            <tr>
+                <th >Lớp</th>
+                <th>
+                    <select >
+                        <option>-Chọn lớp-</option>
+                        <option>Lớp 1</option>
+                        <option>Lớp 2</option>
+                        <option>Lớp 3</option>
+                        <option>Lớp 4</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>Điện thoại</th>
+                <th><input type="text"></th>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+                <th> <input type="submit" value="Đăng ký"/>
+                    <input type="reset" value="Nhập lại"/>
+                </th>
+            </tr>
+        </table>
+        </fieldset>
+    </fieldset>
+</form>
+</body>
+</html>
